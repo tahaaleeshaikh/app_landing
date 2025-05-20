@@ -41,4 +41,3 @@ const Review = () => {
 }
 
 export default Review
-Review
