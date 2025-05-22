@@ -6,7 +6,7 @@ import { FaBars } from 'react-icons/fa';
 type Props = {
     openNav: () => void;
 }
-
+    
 const Nav = ({openNav}:Props) => {
     const [navBg, setNavBg] = React.useState(false);
     useEffect(() => {

@@ -10,7 +10,7 @@ const AnalyticsFeature = () => {
         gap-10'>
             {/* Image content */}
             <div data-aos="fade-up" data-aos-anchor-placement="top-center">
-                <Image src='/images/a.jpg' alt='image' width={500}  height={500} className='object-contain'></Image>
+                <Image src='https://res.cloudinary.com/dpmr3ot0y/image/upload/v1747893240/a_pcbcrp.jpg' alt='image' width={500}  height={500} className='object-contain'></Image>
             </div>
             {/* text content */}
             <div className='p-6'>

@@ -30,15 +30,15 @@ const Hero = () => {
 
               {/* playstore and appstore image */}
               <div className='flex mt-8 mb-8 items-center space-x-4'>
+                  <Image
+                    src='https://res.cloudinary.com/dpmr3ot0y/image/upload/v1747893225/gp_gukky9.png'
+                    alt='play store'
+                    width={150}
+                    height={150}
+                    className='object-contain'
+                  />
                 <Image
-                  src='/images/gp.png'
-                  alt='play store'
-                  width={150}
-                  height={150}
-                  className='object-contain'
-                />
-                <Image
-                  src='/images/as.png'
+                  src='https://res.cloudinary.com/dpmr3ot0y/image/upload/v1747893226/as_v8h9ft.png'
                   alt='App store'
                   width={150}
                   height={150}
@@ -50,7 +50,7 @@ const Hero = () => {
             {/* Image content */}
             <div data-aos="fade-up" data-aos-delay="200" className='hidden lg:block w-auto h-auto'>
               <Image
-                src='/images/hero.png'
+                src='https://res.cloudinary.com/dpmr3ot0y/image/upload/v1747893390/hero_i1zzmv.png'
                 alt='hero'
                 width={700}
                 height={700}
